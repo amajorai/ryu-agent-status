@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.agent-status",
+  "version": "0.1.15",
+  "description": "Splits your agent runs across three sidebar sections — Working, Needs input and Done — each row showing the project it belongs to.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-agent-status",
+  "repository": "https://github.com/amajorai/ryu-agent-status",
+  "keywords": ["runs", "status", "sidebar", "agents", "inbox"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/agent-status",
+      "displayName": "Agent Status"
+    }
+  }
+}
